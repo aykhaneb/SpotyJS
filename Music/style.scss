@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: cornsilk;
+
+}
+section{
+    .container{
+        .spotify{
+            width: 80%;
+            margin: 0 auto;
+            .box{
+                text-align: center;
+                width: 37%;
+                height: 450px;
+                background-color: antiquewhite;
+                padding: 25px 0;
+                border-radius: 20px;
+                margin: 0 auto;
+                margin-top: 100px;
+                .up{
+                    img{
+                        width: 50%;
+                        height: 150px;
+                        border-radius: 20px;
+                    }
+                }
+                .down{
+                    width: 90%;
+                    background-color: burlywood;
+                    border-radius: 35px;
+                    margin: 0 auto;
+                    input[type=range] {
+                        // height: 18px;
+                        -webkit-appearance: none;
+                        margin: 10px 0;
+                        width: 100%;
+                      }
+                      input[type=range]:focus {
+                        outline: none;
+                      }
+                      input[type=range]::-webkit-slider-runnable-track {
+                        width: 100%;
+                        height: 7px;
+                        cursor: pointer;
+                        animate: 0.2s;
+                        box-shadow: 0px 0px 4px #000000;
+                        background: #FFFFFF;
+                        border-radius: 5px;
+                        border: 1px solid #000000;
+                      }
+                      input[type=range]::-webkit-slider-thumb {
+                        box-shadow: 0px 0px 2px #000000;
+                        border: 1px solid #000000;
+                        height: 11px;
+                        width: 14px;
+                        border-radius: 5px;
+                        background: #FFFFFF;
+                        cursor: pointer;
+                        -webkit-appearance: none;
+                        margin-top: -3px;
+                      }
+                      input[type=range]:focus::-webkit-slider-runnable-track {
+                        background: #FFFFFF;
+                      }
+                      input[type=range]::-moz-range-track {
+                        width: 100%;
+                        height: 7px;
+                        cursor: pointer;
+                        animate: 0.2s;
+                        box-shadow: 0px 0px 4px #000000;
+                        background: #FFFFFF;
+                        border-radius: 5px;
+                        border: 1px solid #000000;
+                      }
+                      input[type=range]::-moz-range-thumb {
+                        box-shadow: 0px 0px 2px #000000;
+                        border: 1px solid #000000;
+                        height: 11px;
+                        width: 14px;
+                        border-radius: 5px;
+                        background: #FFFFFF;
+                        cursor: pointer;
+                      }
+                      input[type=range]::-ms-track {
+                        width: 100%;
+                        height: 7px;
+                        cursor: pointer;
+                        animate: 0.2s;
+                        background: transparent;
+                        border-color: transparent;
+                        color: transparent;
+                      }
+                      input[type=range]::-ms-fill-lower {
+                        background: #FFFFFF;
+                        border: 1px solid #000000;
+                        border-radius: 10px;
+                        box-shadow: 0px 0px 4px #000000;
+                      }
+                      input[type=range]::-ms-fill-upper {
+                        background: #FFFFFF;
+                        border: 1px solid #000000;
+                        border-radius: 10px;
+                        box-shadow: 0px 0px 4px #000000;
+                      }
+                      input[type=range]::-ms-thumb {
+                        margin-top: 1px;
+                        box-shadow: 0px 0px 2px #000000;
+                        border: 1px solid #000000;
+                        height: 11px;
+                        width: 14px;
+                        border-radius: 5px;
+                        background: #FFFFFF;
+                        cursor: pointer;
+                      }
+                      input[type=range]:focus::-ms-fill-lower {
+                        background: #FFFFFF;
+                      }
+                      input[type=range]:focus::-ms-fill-upper {
+                        background: #FFFFFF;
+                      }
+                    #range{
+                        width: 80%;
+                        margin: 0 auto;
+                        cursor: pointer;
+                    }
+                    .play{
+                       
+                        i{
+                            margin: 10px 0;
+                            color: #fff;
+                            cursor: pointer;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
